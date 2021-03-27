@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../../public/img/proLeiteLogo.png" />
-    <Buttom msg="Cadastre-se" />
-    <Buttom msg="Entrar" path="/login" />
+    
+    <Buttom msg="Entrar" />
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 import Buttom from "../components/Buttom"
 
 export default {
-  name: "Home",
+  name: "Login",
   components: {
     Buttom,
   },
