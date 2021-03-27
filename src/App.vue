@@ -1,18 +1,29 @@
 <template>
-  <div id="nav">
-  </div>
   <router-view />
 </template>
 
 <style>
+* {
+  box-sizing: border-box;
+}
+body {
+  background: rgb(129,211,211);
+  background: -moz-linear-gradient(196deg, rgba(129,211,211,1) 0%, rgba(205,129,211,0.5) 100%);
+  background: -webkit-linear-gradient(196deg, rgba(129,211,211,1) 0%, rgba(205,129,211,0.5) 100%);
+  background: linear-gradient(196deg, rgba(129,211,211,1) 0%, rgba(205,129,211,0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#81d3d3",endColorstr="#cd81d3",GradientType=1);
+  height: 100vh;
+  font-size: 16px;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Quicksand, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,9,121,1) 52%, rgba(0,212,255,1) 100%); 
+  display: flex;
+  height: 100vh;
 }
 
 #nav {
@@ -26,9 +37,5 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
-}
-
-html {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,9,121,1) 52%, rgba(0,212,255,1) 100%); 
 }
 </style>
