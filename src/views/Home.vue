@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <img alt="Pro Leite" src="@/assets/proLeiteLogo.png" />
-    <Button text="Cadastre-se" path="/signup/page1" customColor="#D381C6" />
-    <Button text="Entrar" path="/login" />
+    <Button text="Cadastre-se" path="/signup/page1" :style="{'background-color': '#D381C6'}" />
+    <Button text="Entrar" path="/login" :style="{'background-color': '#818ED3'}"/>
   </div>
 </template>
 
