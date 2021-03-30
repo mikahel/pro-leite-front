@@ -1,31 +1,35 @@
 <template>
   <div class="home">
-    <img class="main-logo" alt="Vue logo" src="../../public/img/proLeiteLogo.png" />
-    <div class="buttons-container">
-      <Buttom msg="Cadastre-se" customColor="#D381C6" />
-      <Buttom msg="Entrar" path="/login" />
-    </div>
+    <img alt="Pro Leite" src="@/assets/proLeiteLogo.png" />
+    <Button text="Cadastre-se" path="/signup/page1" :style="{'background-color': '#D381C6'}" />
+    <Button text="Entrar" path="/login" :style="{'background-color': '#818ED3'}"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Buttom from "../components/Buttom"
+// @ts-ignore
+import Button from "@/components/Button.vue"
 
 export default {
   name: "Home",
   components: {
-    Buttom,
+    Button,
   },
 };
 </script>
 
 <style scoped>
-  .main-logo {
-    margin: 15px 0;
-  }
-  .buttons-container {
+  .home {
     display: flex;
+    flex: 1;
     flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home img {
+    margin-bottom: 2.3rem;
   }
 </style>

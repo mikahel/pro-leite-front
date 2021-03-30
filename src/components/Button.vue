@@ -1,18 +1,16 @@
 <template>
-    <div>
-        <button class="custom-button" :style="cssVars">
-            <!-- <router-link to="{path}">{{msg}}</router-link> -->
-            <router-link :to="{ path: 'path' }">{{msg}}</router-link>
-        </button>
-    </div>
+    <button :style="cssVars">
+        <router-link :to={path} class="router-link">{{text}}</router-link>
+    </button>
 </template>
 
 <script>
 export default {
-  name: "Buttom",
+  name: "Button",
   props: {
-    msg: String,
+    text: String,
     path: String,
+    color: String,
     customColor: {
       type: String,
       default: "#818ED3"
@@ -30,17 +28,25 @@ export default {
 </script>
 
 <style scoped>
-  .custom-button {
+  button {
     background-color: var(--button-color);
     border: solid var(--button-color);
+    height: 4rem;
+    width: 18rem;
     border-radius: 10px;
-    font-size: x-large;
-    margin: 15px 0;
-    min-width: 250px;
-    padding: 10px 12px;
+    border: none;
+    margin: 0.5rem 0;
+    transition: filter 0.2s;
   }
-  a {
-    color: white;
+  button:hover{
+    filter: brightness(85%);
+  }
+  .router-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
   }
 </style>
