@@ -36,6 +36,7 @@ export default {
     border-radius: 10px;
     border: none;
     margin: 0.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: filter 0.2s;
   }
   button:hover{

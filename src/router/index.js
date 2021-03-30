@@ -33,6 +33,18 @@ const routes = [
       },
     ],
   },
+  {
+    path: "/main",
+    name: "Main",
+    component: () =>
+      import("../views/Main.vue"),
+  },
+  {
+    path: "/milk-extraction-steps",
+    name: "MilkExtractionSteps",
+    component: () =>
+      import("../views/MilkExtractionSteps.vue"),
+  },
 ];
 
 const router = createRouter({
