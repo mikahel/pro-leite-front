@@ -2,7 +2,7 @@
   <div class="home">
     <img class="main-logo" alt="Vue logo" src="../../public/img/proLeiteLogo.png" />
     <div class="buttons-container">
-      <Buttom msg="Cadastre-se" />
+      <Buttom msg="Cadastre-se" customColor="#D381C6" />
       <Buttom msg="Entrar" path="/login" />
     </div>
   </div>

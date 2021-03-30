@@ -37,7 +37,7 @@ export default {
     font-size: x-large;
     margin: 15px 0;
     min-width: 250px;
-    padding: 5px 12px;
+    padding: 10px 12px;
   }
   a {
     color: white;
