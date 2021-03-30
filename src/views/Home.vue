@@ -1,8 +1,10 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../../public/img/proLeiteLogo.png" />
-    <Buttom msg="Cadastre-se" />
-    <Buttom msg="Entrar" path="/login" />
+    <img class="main-logo" alt="Vue logo" src="../../public/img/proLeiteLogo.png" />
+    <div class="buttons-container">
+      <Buttom msg="Cadastre-se" />
+      <Buttom msg="Entrar" path="/login" />
+    </div>
   </div>
 </template>
 
@@ -17,3 +19,13 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  .main-logo {
+    margin: 15px 0;
+  }
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
