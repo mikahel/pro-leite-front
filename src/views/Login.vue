@@ -6,7 +6,7 @@
       <Input placeholder="Senha" id="login-password"/>
       <CheckboxInput id="remember-password" labelText="Manter-me conectada"/>
       <span>Esqueci a minha senha</span>
-      <Button text="Entrar" path="/login" :style="{'background-color': '#818ED3'}"/>
+      <Button text="Entrar" path="/main" :style="{'background-color': '#818ED3'}"/>
     </form>
   </div>
 </template>

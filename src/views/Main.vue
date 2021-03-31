@@ -2,8 +2,8 @@
   <div class="main">
     <Header class="header"/>
     <div >
-      <Button text="Como fazer a doação" path="/signup/page1"/>
-      <Button text="Agendar coleta de leite" path="/signup/page1" customColor="#D381C6" />
+      <Button text="Como fazer a doação" path="/milk-extraction-steps"/>
+      <Button text="Agendar coleta de leite" path="/main" customColor="#D381C6" />
     </div>
   </div>
 </template>
