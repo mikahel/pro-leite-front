@@ -11,7 +11,7 @@
     />
     <Button 
       text="Cadastrar"
-      path="/signup/2" 
+      path="/" 
       :style="{
         'background-color': '#7CD15F',
         'align-self': 'center'
