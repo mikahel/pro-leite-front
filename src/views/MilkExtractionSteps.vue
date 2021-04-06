@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <ExtractionStepsList :number="passo.passo" :title="passo.titulo" :list="passo.descricao"/>
+    <router-view />
   </div>
 </template>
 
