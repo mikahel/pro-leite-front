@@ -16,7 +16,7 @@
     props: {
       number: String,
       title: String,
-      list: Array,
+      list: Object,
     },
   }
 </script>

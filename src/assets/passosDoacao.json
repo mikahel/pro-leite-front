@@ -1,7 +1,10 @@
-[{
+[
+  {
     "titulo":"Prepare o frasco",
     "passo":"1",
-    "descricao":[ {
+    "descricao":
+    [ 
+      {
         "key": 1,
         "text": "Escolha um frasco de vidro com tampa plástica"
       },
@@ -20,31 +23,80 @@
       {
         "key": 5,
         "text": "Quando estiver seco, estará pronto"
-      } ]
-},
-
-{
-    "titulo":"John",
+      } 
+    ]
+  },
+  {
+    "titulo":"Prepare-se para a ordenha",
     "passo":"2",
-    "descricao":[ {
+    "descricao":
+    [ 
+      {
         "key": 1,
-        "text": "aifbccewnncndcnc"
+        "text": "Escolha um lugar limpo e tranquilho"
       },
       {
         "key": 2,
-        "text": "aifbccewnncndcnc"
+        "text": "Prenda os cabelos"
       },
       {
         "key": 3,
-        "text": "aifbccewnncndcnc"
+        "text": "Evite falar durante o processo ou use uma máscara"
       },
       {
         "key": 4,
-        "text": "aifbccewnncndcnc"
+        "text": "Lave as mãos e seque com toalha limpa"
+      }
+    ]
+  },
+  {
+    "titulo":"Retire o leite",
+    "passo":"3",
+    "descricao":
+    [ 
+      {
+        "key": 1,
+        "text": "Massageie as mamas"
+      },
+      {
+        "key": 2,
+        "text": "Ponha o polegar e indicador na borda da aréola"
+      },
+      {
+        "key": 3,
+        "text": "Firme os dedos e empurre  em direção ao corpo"
+      },
+      {
+        "key": 4,
+        "text": "Comprima um dedo contra o outro, várias vezes até o leite sair"
       },
       {
         "key": 5,
-        "text": "aifbccewnncndcnc"
-      } ]
-}
+        "text": "Despreze as primeiras gotas para a coleta"
+      } 
+    ]
+  },
+  {
+    "titulo":"Armazene o leite",
+    "passo":"4",
+    "descricao":
+    [ 
+      {
+        "key": 1,
+        "text": "Procure deixar um espaço de 2 dedos abaixo da tampa"
+      },
+      {
+        "key": 2,
+        "text": "Armazene o leite num congelador ou freezer"
+      },
+      {
+        "key": 3,
+        "text": "O leite pode ficar até 15 dias no congelador"
+      },
+      {
+        "key": 4,
+        "text": "Após a coleta faça o agendamento na tela inicial"
+      }
+    ]
+  }
 ]
