@@ -1,26 +1,26 @@
 <template>
-  <div>
-    <ExtractionStepsList :number="passo.passo" :title="passo.titulo" :list="passo.descricao"/>
-    <Button 
-      text="Voltar" 
-      path="/milk-extraction-steps/page2" 
-      :style="{
-        'background-color': '#7CD15F', 
-        'width': '9rem', 
-        'height': '3rem',
-        'align-self': 'flex-start'
-      }"
-    />
-    <Button 
-      text="Próximo" 
-      path="/milk-extraction-steps/page4" 
-      :style="{
-        'background-color': '#7CD15F', 
-        'width': '9rem', 
-        'height': '3rem',
-        'align-self': 'flex-end'
-      }"
-    />
+  <div class="container">
+    <ExtractionStepsList :number="passo.passo" :title="passo.titulo" :list="passo.descricao" class="steps-card"/>
+    <div class="button-container">
+      <Button 
+        text="Voltar" 
+        path="/milk-extraction-steps/page2" 
+        :style="{
+          'background-color': '#818ED3', 
+          'width': '9rem', 
+          'height': '3rem',
+        }"
+      />
+      <Button 
+        text="Próximo" 
+        path="/milk-extraction-steps/page4" 
+        :style="{
+          'background-color': '#7CD15F', 
+          'width': '9rem', 
+          'height': '3rem',
+        }"
+      />
+    </div>
   </div>
 </template>
 
@@ -44,5 +44,22 @@ export default {
 </script>
 
 <style scoped>
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .steps-card {
+    margin-top: 3rem;
+  }
+  
+  .button-container {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
 </style>

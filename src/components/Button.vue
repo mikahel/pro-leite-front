@@ -1,5 +1,5 @@
 <template>
-    <button :style="String(cssVars)">
+    <button :style="cssVars">
         <router-link :to={path} class="router-link">{{text}}</router-link>
     </button>
 </template>

@@ -54,6 +54,7 @@
   .container li {
     text-align: start;
     margin-bottom: 1rem;
+    width: 90%;
   }
 
   .container li:last-of-type {
