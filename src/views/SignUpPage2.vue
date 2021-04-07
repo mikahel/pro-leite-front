@@ -7,7 +7,7 @@
     <CheckboxInput 
       id="terms-of-service" 
       labelText="Concordo com os termos de uso" 
-      textDecoration="true"
+      :textDecoration="true"
     />
     <Button 
       text="Cadastrar"

@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Pro Leite" src="@/assets/proLeiteLogo.png" />
-    <Button text="Cadastre-se" path="/signup/page1" customColor="#D381C6" />
+    <Button text="Cadastre-se" path="/signup" customColor="#D381C6" />
     <Button text="Entrar" path="/login" />
   </div>
 </template>
