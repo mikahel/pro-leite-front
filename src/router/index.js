@@ -73,6 +73,12 @@ const routes = [
         },
       ],
   },
+  {
+    path: "/scheduling",
+    name: "Scheduling",
+    component: () =>
+      import("../views/Scheduling.vue"),
+  },
 ];
 
 const router = createRouter({

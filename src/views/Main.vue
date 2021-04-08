@@ -3,7 +3,7 @@
     <Header class="header"/>
     <div >
       <Button text="Como fazer a doação" path="/milk-extraction-steps"/>
-      <Button text="Agendar coleta de leite" path="/main" customColor="#D381C6" />
+      <Button text="Agendar coleta de leite" path="/scheduling" customColor="#D381C6" />
     </div>
   </div>
 </template>
