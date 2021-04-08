@@ -1,7 +1,9 @@
 <template>
   <div class="main">
     <Header class="header" />
+    <date-picker v-model="time" lang="en" type="time" format="HH:mm:ss a" placeholder="Select Time">
 
+    </date-picker>
   </div>
 </template>
 
@@ -10,11 +12,24 @@
     import Header from '@/components/Header.vue'
    // @ts-ignore
     import Button from '@/components/Button.vue'
+    import DatePicker from 'vue2-datepicker';
+    import 'vue2-datepicker/index.css';
+    //import Vue from 'vue';
+
+    //DatePicker.install(Vue);
+    DatePicker.locale('en'); 
+
     export default {
         name: "Scheduling",
         components: {
-            Header, Button
+            Header, Button, DatePicker
         },
+        data() {
+          return {
+            date: '',
+            time: ''
+          }
+        }
     }
 </script>
 
